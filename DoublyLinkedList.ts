@@ -117,5 +117,6 @@ export default class DoublyLinkedList<T> {
     for (let i = 0; curr && i < idx; ++i) {
       curr = curr.next;
     }
+    return curr;
   }
 }
