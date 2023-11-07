@@ -35,7 +35,7 @@ function walk(
     return false;
   }
 
-  //3 recurese
+  //3 recurse
   //pre
   seen[curr.y][curr.x] = true;
   path.push(curr);
